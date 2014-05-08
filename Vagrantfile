@@ -19,8 +19,6 @@ Vagrant.configure("2") do |config|
     vb.cpus = 2
   end
 
- config.vm.provision :shell, :path => "test.sh"
-
   config.vm.hostname= "testhki"
   #config.vm.network "public_network"
   config.vm.network "private_network", ip: "192.168.22.22"
