@@ -1,3 +1,9 @@
 http://nrel.github.io/vagrant-boxes/
 
 vagrant box add --name centos65-pupet-chef-vboxadd --checksum-type sha256 --checksum 7fcb33945b790dccfdb845e127bf98bd9f082282f36e9cec629d88ed6aa5a8a4 http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.5-x86_64-v20140311.box
+
+https://github.com/puppetlabs/puppetlabs-training-bootstrap/blob/master/modules/bootstrap/manifests/init.pp
+
+https://github.com/stahnma/puppetlabs-puppetlabs_repo/blob/master/manifests/yum.pp
+
+https://github.com/viirya/puppet-hadoop/blob/master/manifests/init.pp
