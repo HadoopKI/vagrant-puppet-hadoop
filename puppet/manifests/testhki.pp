@@ -42,7 +42,7 @@ class bootstrap {
 }
 
 class basicackages {
-	package { ['git','htop','tmux']:
+	package { ['git','htop','tmux','java-1.7.0-openjdk']:
 		ensure => present,
 	}
 
